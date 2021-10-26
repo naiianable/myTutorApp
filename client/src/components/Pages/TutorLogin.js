@@ -9,7 +9,7 @@ const TutorLogin = () => {
             <form className="form-control">
                 <div className="form-group text-center">
                     <div>
-                        <label for="exampleInputEmail1">Email address:</label>
+                        <label>Email address:</label>
                     </div>
                     <input type="email" className="col-xs-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
                     <div>
@@ -18,7 +18,7 @@ const TutorLogin = () => {
                 </div>
                 <div className="form-group text-center">
                     <div>
-                        <label for="exampleInputPassword1">Password:</label>
+                        <label>Password:</label>
                     </div>
                     <input type="password" className="col-xs-3" id="exampleInputPassword1" placeholder="Password" />
                 </div>

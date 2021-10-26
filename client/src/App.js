@@ -10,25 +10,31 @@ import ParentLogin from "./components/Pages/ParentLogin";
 import TutorLogin from "./components/Pages/TutorLogin";
 
 function App() {
+  
   return (
+
     <div >
       
       <Router>
 
-        <Main />
+        <Switch>
 
-      <Switch>
-        <Route path="/tutorLogin">
-          <TutorLogin />
-        </Route>
+          <Route exact path="/">
+            <Main />
+          </Route>
 
-        <Route path="/parentLogin">
-          <ParentLogin />
-        </Route>
-      </Switch>
+          <Route path="/tutorLogin">
+            <TutorLogin />
+          </Route>
+
+          <Route path="/parentLogin">
+            <ParentLogin />
+          </Route>
+        </Switch>
       
       </Router>
     </div>
+
   );
 }
 
