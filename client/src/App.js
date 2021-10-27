@@ -6,7 +6,8 @@ import {
   Route
 } from 'react-router-dom';
 
-import Main from "./components/Pages/Main/Main"
+import Home from "./components/Pages/Home";
+import LoginMain from "./components/Pages/Login/LoginMain";
 import ParentLogin from "./components/Pages/ParentLogin";
 import TutorLogin from "./components/Pages/TutorLogin";
 
@@ -21,7 +22,11 @@ function App() {
         <Switch>
 
           <Route exact path="/">
-            <Main />
+            <Home />
+          </Route>  
+
+          <Route path="/loginMain">
+            <LoginMain />
           </Route>
 
           <Route path="/tutorLogin">

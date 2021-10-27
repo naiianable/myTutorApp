@@ -3,10 +3,11 @@ import About from './About';
 import tutorImage from '../../../images/tutorImage.jpeg';
 import parentImage from '../../../images/parentImage.jpeg';
 //import mainBackground from '../../images/mainBackground.jpeg';
+import Navbar from '../../NavBar/NavBar';
 import Footer from '../../Footer/Footer'
 import './main.css';
 
-const Main = () => {
+const LoginMain = () => {
 
     // const [loginOptions, setLoginOptions] = useState(true) 
 
@@ -28,9 +29,7 @@ const Main = () => {
     return (
         <>
         <div className="background" >
-            <div className="header" style={{color: "#99ccff"}}>
-                <h3>TutorApp</h3>
-            </div>
+            <Navbar />
 
             <div style={{padding: "15px"}}>
             </div>
@@ -76,4 +75,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default LoginMain
