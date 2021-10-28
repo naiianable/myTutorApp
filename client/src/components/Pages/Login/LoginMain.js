@@ -1,5 +1,4 @@
 import React from 'react'
-import About from './About';
 import tutorImage from '../../../images/tutorImage.jpeg';
 import parentImage from '../../../images/parentImage.jpeg';
 //import mainBackground from '../../images/mainBackground.jpeg';
@@ -64,7 +63,6 @@ const LoginMain = () => {
             <div style={{padding: "15px"}}>
             </div>
 
-            <About />     
         </div>
 
         {/* <div style={{padding: "15px"}}>

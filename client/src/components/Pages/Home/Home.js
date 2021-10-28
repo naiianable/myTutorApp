@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../NavBar/NavBar';
+import Navbar from '../../NavBar/NavBar';
 import StudentInfoForm from './StudentInfoForm';
-import About from './Login/About';
-import Footer from '../Footer/Footer';
+import About from '../Login/About';
+import Footer from '../../Footer/Footer';
 
 import './home.css'
 
@@ -22,9 +22,6 @@ const Home = () => {
 
             <About />     
         </div>
-
-        {/* <div style={{padding: "15px"}}>
-            </div> */}
 
         <Footer />
         </>

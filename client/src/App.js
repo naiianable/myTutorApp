@@ -6,10 +6,10 @@ import {
   Route
 } from 'react-router-dom';
 
-import Home from "./components/Pages/Home";
+import Home from "./components/Pages/Home/Home";
 import LoginMain from "./components/Pages/Login/LoginMain";
-import ParentLogin from "./components/Pages/ParentLogin";
-import TutorLogin from "./components/Pages/TutorLogin";
+import ParentLogin from "./components/Pages/Login/ParentLogin";
+import TutorLogin from "./components/Pages/Login/TutorLogin";
 
 function App() {
   
