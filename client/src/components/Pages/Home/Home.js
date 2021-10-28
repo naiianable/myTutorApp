@@ -22,6 +22,9 @@ const Home = () => {
             <About />     
         </div>
 
+        <div style={{padding: "5%"}}>
+            </div>
+
         <Footer />
         </>
     )

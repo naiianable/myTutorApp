@@ -20,7 +20,7 @@ const TutorLogin = () => {
                     </div>
 
                     <div>
-                        <form className="form-control">
+                        <form className="tutor-login form-control">
                             <div className="form-group text-center">
                                 <div>
                                     <label>Email address:</label>

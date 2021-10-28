@@ -1,4 +1,10 @@
 
+.background {
+    position: absolute;
+    padding-bottom: 900px;
+    min-height: 100vh;
+}
+
 .btn {
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
