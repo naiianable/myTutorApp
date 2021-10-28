@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../NavBar/NavBar';
+import NavBar from '../../NavBar/NavBar';
 import StudentInfoForm from './StudentInfoForm';
 import About from '../Login/About';
 import Footer from '../../Footer/Footer';
@@ -10,14 +10,13 @@ const Home = () => {
     return (
         <>
         <div className="background" >
-            <Navbar />
-
-            <div style={{padding: "15px"}}>
+            <NavBar />
+            <div style={{padding: "1%"}}>
             </div>
 
             <StudentInfoForm />
 
-            <div style={{padding: "15px"}}>
+            <div style={{padding: "1%"}}>
             </div>
 
             <About />     

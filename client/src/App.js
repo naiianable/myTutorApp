@@ -11,6 +11,8 @@ import LoginMain from "./components/Pages/Login/LoginMain";
 import ParentLogin from "./components/Pages/Login/ParentLogin";
 import TutorLogin from "./components/Pages/Login/TutorLogin";
 
+import '../src/components/Pages/Home/home.css';
+
 function App() {
   
   return (
