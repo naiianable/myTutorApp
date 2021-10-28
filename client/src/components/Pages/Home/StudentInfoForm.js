@@ -45,14 +45,15 @@ const StudentInfoForm = () => {
                     <div className="form-group col-md-6">
                     <label for="state-from">State</label>
                             <select className="form-control">
-                                <option>Default select</option>
-                                <option>Default select</option>
+                                <option>Select</option>
+                                <option>Hawaii</option>
+                                <option>California</option>
                             </select>
                     </div>
                 </div>
 
                 <div>
-                    <button type="submit" class="btn btn-primary mb-2">Find a Tutor</button>
+                    <button type="submit" class="btn btn-primary mb-2">Find a Tutor!</button>
                 </div>
             </form>
         </div>

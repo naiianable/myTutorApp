@@ -18,18 +18,16 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse ml-auto" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="/loginMain">Login</a>
-                        </li>
+                        
                         {/* CHANGE THESE BUTTONS BACK TO A TAGS WHEN THERE ARE VALID LINKS */}
-                        <li className="nav-item">
-                            <button className="nav-link" href="#">Find a Tutor</button>
-                        </li>
                         <li className="nav-item">
                             <button className="nav-link" href="#">Become a Tutor</button>
                         </li>
                         <li className="nav-item">
                             <button className="nav-link" href="#">Create an Account</button>
+                        </li>
+                        <li className="nav-item active">
+                            <a className="nav-link" href="/loginMain">Login</a>
                         </li>
                     </ul>
                 </div>

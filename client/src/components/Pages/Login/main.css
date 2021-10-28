@@ -24,7 +24,11 @@
 
 .card-text {
     font-family: 'Josefin Slab', serif;
-    
+}
+
+.card-title {
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
 }
 
 .description {
