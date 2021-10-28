@@ -2,9 +2,9 @@ import React from 'react'
 import tutorImage from '../../../images/tutorImage.jpeg';
 import parentImage from '../../../images/parentImage.jpeg';
 //import mainBackground from '../../images/mainBackground.jpeg';
-import Navbar from '../../NavBar/NavBar';
-import Footer from '../../Footer/Footer'
-import './main.css';
+import NavBar from '../../NavBar/NavBar';
+import Footer from '../../Footer/Footer';
+import './login.css';
 
 const LoginMain = () => {
 
@@ -28,9 +28,10 @@ const LoginMain = () => {
     return (
         <>
         <div className="background" >
-            <Navbar />
 
-            <div style={{padding: "15px"}}>
+            <NavBar />
+
+            <div style={{padding: "1%"}}>
             </div>
 
             <div className="text-center">
@@ -60,12 +61,12 @@ const LoginMain = () => {
             
             </div>       
 
-            <div style={{padding: "15px"}}>
+            <div style={{padding: "1%"}}>
             </div>
 
         </div>
 
-        {/* <div style={{padding: "15px"}}>
+        {/* <div style={{padding: "1%"}}>
             </div> */}
 
         <Footer />

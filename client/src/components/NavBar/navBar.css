@@ -9,12 +9,6 @@
     padding-bottom: .5%;
 }
 
-.background {
-    height:100%;
-    background-image: url('../../../images/mainBackground.jpeg');
-    background-size: cover;
-}
-
 .btn {
     margin: 5px;
     background-color: #99ccff;
@@ -49,12 +43,12 @@
     text-decoration: none;
 }
 
+
 .navbar {
     background-color: rgba(245, 245, 245, 0.8);
     color: #99ccff;
     font-family: 'Pacifico', cursive;
     padding-bottom: .5%;
-    
     text-shadow: 1px 1px #8dc4fa;
 }
 

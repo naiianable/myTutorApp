@@ -1,15 +1,17 @@
 import React from 'react'
 // import { Link } from "react-router-dom";
 
+import './navBar.css';
+
 const Navbar = () => {
 
-    let navBar;
+    //let navBar;
 
     //return different navbar depending on if user is logged in or not
 
 
     return (
-        <div>
+        <div className="navbar-main">
          
             <nav className="navbar navbar-expand-lg">
                 <ul className="navbar-nav mr-auto">
