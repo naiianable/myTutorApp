@@ -4,13 +4,13 @@ import './footer.css';
 
 const Footer = () => {
     return (
-        <div>
+        <div className="footer-main">
 
 
 <footer className="page-footer font-small indigo" style={{backgroundColor: "#99ccff"}}>
 
 
-  <div className="container text-center text-md-left">
+  {/* <div className="container text-center text-md-left">
 
 
     <div className="row">
@@ -118,7 +118,7 @@ const Footer = () => {
     </div>
 
 
-  </div>
+  </div> */}
 
 
 
