@@ -1,40 +1,25 @@
 
+
 .background {
     height:100%;
     background-image: url('../../../images/mainBackground.jpeg');
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
-    padding-bottom: 80px;
     position: fixed;
-
-}
-
-.btn {
-    font-family: 'Josefin Slab', serif;
-    font-weight: bold;
-}
-
-.form-group {
-    font-family: 'Josefin Slab', serif;
-    font-weight: bold;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .gen-info-form {
     background-color: rgba(245, 245, 245, 0.8);
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
     padding-top: .5%;
     padding-bottom: .5%;
     padding-left: 2%;
     padding-right: 2%;
     width: 70%;
     margin: auto;
+    
 }
-
-/* .header {
-    background-color: rgba(245, 245, 245, 0.8);
-    color: #99ccff;
-    padding-bottom: .5%;
-    font-family: 'Pacifico', cursive;
-    text-shadow: 1px 1px #8dc4fa;
-} */
-

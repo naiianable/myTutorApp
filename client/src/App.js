@@ -10,8 +10,10 @@ import Home from "./components/Pages/Home/Home";
 import LoginMain from "./components/Pages/Login/LoginMain";
 import ParentLogin from "./components/Pages/Login/ParentLogin";
 import TutorLogin from "./components/Pages/Login/TutorLogin";
+import CreateAccount from './components/Pages/CreateAccount/CreateAccount';
 
 import '../src/components/Pages/Home/home.css';
+
 
 function App() {
   
@@ -38,6 +40,11 @@ function App() {
           <Route path="/parentLogin">
             <ParentLogin />
           </Route>
+
+          <Route path="/createAccount">
+            <CreateAccount />
+          </Route>
+
         </Switch>
       
       </Router>
