@@ -26,7 +26,7 @@ const Navbar = () => {
                             <button className="nav-link" href="#">Become a Tutor</button>
                         </li>
                         <li className="nav-item">
-                            <button className="nav-link" href="#">Create an Account</button>
+                            <a className="nav-link" href="/createAccount">Create an Account</a>
                         </li>
                         <li className="nav-item active">
                             <a className="nav-link" href="/loginMain">Login</a>
